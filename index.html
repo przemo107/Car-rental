@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Car Rental</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Car Rental</h1>
+    </header>
+    <main>
+      <form>
+        <label for="start-date">Start Date:</label><br />
+        <input type="date" id="start-date" /><br />
+        <label for="end-date">End Date:</label><br />
+        <input type="date" id="end-date" /><br /><br />
+        <input type="submit" value="Search" />
+      </form>
+      <div id="car-list"></div>
+      <div id="basket">
+        <h2>Basket</h2>
+        <div id="basket-items"></div>
+        <div id="basket-total">Total: $0</div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
