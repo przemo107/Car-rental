@@ -22,10 +22,50 @@ main {
   padding: 20px;
 }
 
-form {
+.form {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+  padding: 5x;
+  width: 50%;
+}
+
+.search-btn {
+  display: flex;
+  justify-content: center;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.basket {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(85, 65, 65);
+  justify-content: center;
+  padding: 5px;
+  width: 50%;
+  align-items: center;
+  border-radius: 50%;
+  color: whitesmoke;
+}
+.basket-cars {
+  text-align: center;
+  font-weight: 600;
+}
+
+.action-div {
+  display: flex;
+  gap: 50%;
 }
 
 #car-list {
@@ -74,6 +114,7 @@ form {
   color: white;
   padding: 5px 10px;
   border: none;
+  border-radius: 5px;
   cursor: pointer;
 }
 

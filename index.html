@@ -13,19 +13,25 @@
       <h1>Car Rental</h1>
     </header>
     <main>
-      <form>
-        <label for="start-date">Start Date:</label><br />
-        <input type="date" id="start-date" /><br />
-        <label for="end-date">End Date:</label><br />
-        <input type="date" id="end-date" /><br /><br />
-        <input type="submit" value="Search" />
-      </form>
-      <div id="car-list"></div>
-      <div id="basket">
-        <h2>Basket</h2>
-        <div id="basket-items"></div>
-        <div id="basket-total">Total: $0</div>
+      <div class="action-div">
+        <form class="form">
+          <label for="start-date">Start Date:</label><br />
+          <input type="date" id="start-date" /><br />
+          <label for="end-date">End Date:</label><br />
+          <input type="date" id="end-date" /><br /><br />
+          <div class="btn">
+            <input class="search-btn" type="submit" value="Search" />
+          </div>
+        </form>
+        <div class="basket" id="basket">
+          <div class="basket-cars">
+            <h2>Basket</h2>
+            <div id="basket-items"></div>
+            <div id="basket-total">Total: $0</div>
+          </div>
+        </div>
       </div>
+      <div id="car-list"></div>
     </main>
     <script src="main.js"></script>
   </body>
